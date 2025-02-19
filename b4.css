@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row ;
+    gap: 12px;
+}
+
+.head-box {
+    border:1px solid transparent ;
+    background-color: #ffa437;
+    height: 15vh;
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+   
+}
+
+.big-box {
+    border: 1px solid transparent;
+    background-color: #daec00;
+    height: 40vh;
+}
+
+.main-footer{
+    display: flex ;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.main-box {
+    border: 1px solid transparent;
+    background-color: #4a89d0;
+    height: 20vh;
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex: 1;
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex: 1;
+}
+
+.footer-box {
+    border: 1px solid transparent;
+    background-color: #e3e3e3;
+    height: 15vh;
+    flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        height: 20vh;
+        flex-direction: column;
+    }
+    
+    .main{
+        flex-direction: column;
+    }
+
+    .big-box{
+        height: 20vh;
+    }
+
+    .main-footer{
+        height: 50vh;
+        flex-direction: column;
+    }
+
+    .footer{
+        height: 30vh;
+        flex-direction: column;
+    }
+
+    .box1{
+        flex-direction: column;
+    }
+
+    .box-2{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        height: 20vh;
+        flex-direction: column;
+    }
+    
+    .main{
+        flex-direction: column;
+    }
+
+    .big-box{
+        height: 30vh;
+    }
+
+    .main-footer{
+        height: 20vh;
+        flex-direction: column;
+    }
+
+    .footer{
+        height: 20vh;
+        flex-direction: column;
+    }
+
+    .box1{
+        flex-direction: row;
+    }
+
+    .box-2{
+        flex-direction: row;
+    } 
+}
